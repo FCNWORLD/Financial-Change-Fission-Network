@@ -1,4 +1,4 @@
-Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2009-2020 FCN Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -30,7 +30,7 @@ Dependencies
  miniupnpc   UPnP Support      Optional firewall-jumping support
  libqrencode QRCode generation Optional QRCode generation
 
-Note that libexecinfo should be installed, if you building under *BSD systems. 
+Note that libexecinfo should be installed, if you building under *BSD systems.
 This library provides backtrace facility.
 
 miniupnpc may be used for UPnP port mapping.  It can be downloaded from

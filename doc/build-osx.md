@@ -4,15 +4,12 @@ Mac OS X bitcoind build instructions
 Authors
 -------
 
-* Laszlo Hanyecz <solar@heliacal.net>
-* Douglas Huff <dhuff@jrbobdobbs.org>
-* Colin Dean <cad@cad.cx>
-* Gavin Andresen <gavinandresen@gmail.com>
+* codeguo <support@fcnworld.net>
 
 License
 -------
 
-Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2009-2020 Bitcoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
