@@ -1,4 +1,4 @@
-// Copyright (c) 2012 The Bitcoin developers
+// Copyright (c) 2020 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -45,7 +45,7 @@ static const int BIP0031_VERSION = 60000;
 static const int MEMPOOL_GD_VERSION = 60002;
 
 #define DISPLAY_VERSION_MAJOR       1
-#define DISPLAY_VERSION_MINOR       0 
+#define DISPLAY_VERSION_MINOR       0
 #define DISPLAY_VERSION_REVISION    0
 #define DISPLAY_VERSION_BUILD       0
 

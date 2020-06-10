@@ -1,5 +1,5 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2009-2020 Satoshi Nakamoto
+// Copyright (c) 2009-2020 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -454,7 +454,7 @@ static const signed char phexdigit[256] =
   -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1, };
 
 
-static const long hextable[] = 
+static const long hextable[] =
 {
 	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 	-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,		// 10-19
@@ -487,14 +487,14 @@ static const long hextable[] =
 
 long hex2long(const char* hexString)
 {
-	long ret = 0; 
+	long ret = 0;
 
-	while (*hexString && ret >= 0) 
+	while (*hexString && ret >= 0)
 	{
 		ret = (ret << 4) | hextable[*hexString++];
 	}
 
-	return ret; 
+	return ret;
 }
 
 
